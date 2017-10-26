@@ -1,4 +1,3 @@
-// quickSort.c
 #include <stdio.h>
 #include <time.h>
 #define N 10
@@ -43,7 +42,6 @@ void quickSort( int a[], int l, int r)
 
    if( l < r ) 
    {
-   	// divide and conquer
         j = partition( a, l, r);
        quickSort( a, l, j-1);
        quickSort( a, j+1, r);

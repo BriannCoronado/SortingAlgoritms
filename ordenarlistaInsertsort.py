@@ -1,6 +1,6 @@
 #Insert sort
 import random
-N=5 # tamaño del arreglo
+N=10 # tamaño del arreglo
 arr=[]
 prueba=[]
 arr1=[]
